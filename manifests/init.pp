@@ -1,41 +1,22 @@
-# == Class: broken
-#
-# Full description of class broken here.
-#
-# === Parameters
-#
-# Document parameters here.
-#
-# [*sample_parameter*]
-#   Explanation of what this parameter affects and what it defaults to.
-#   e.g. "Specify one or more upstream ntp servers as an array."
-#
-# === Variables
-#
-# Here you should define a list of variables that this module would require.
-#
-# [*sample_variable*]
-#   Explanation of how this variable affects the funtion of this class and if
-#   it has a default. e.g. "The parameter enc_ntp_servers must be set by the
-#   External Node Classifier as a comma separated list of hostnames." (Note,
-#   global variables should be avoided in favor of class parameters as
-#   of Puppet 2.6.)
-#
-# === Examples
-#
-#  class { 'broken':
-#    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
-#  }
-#
-# === Authors
-#
-# Author Name <author@domain.com>
-#
-# === Copyright
-#
-# Copyright 2016 Your name here, unless otherwise noted.
 #
 class broken {
 
+  include broken::dynamic_scoping_erb_templates_inner
+  include broken::dynamic_scoping_erb_templates_outer
+  include broken::empty_string_defaults
+  include broken::escaping_with_backslashes
+  include broken::function_call_without_parans
+  include broken::hyphen-in-class-name
+  include broken::non_productive_expression
+  include broken::plus_equals
+  include broken::reg_expression_against_non_string
+  include broken::space_before_hash_or_array
+  include broken::string_interpolation_expressions
+  include broken::string_number_comparison
+  include broken::string_number_in_comparison
+  include broken::unquoted_bare_uppercase_word
+  include broken::unquoted_file_mode
+  include broken::unquoted_string_variable
+  include broken::uppercase_variable_name
 
 }
