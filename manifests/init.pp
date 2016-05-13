@@ -5,7 +5,7 @@ class broken {
   include broken::dynamic_scoping_erb_templates_outer
   include broken::empty_string_defaults
   include broken::escaping_with_backslashes
-  include broken::function_call_without_parans
+  #include broken::function_call_without_parans
   include broken::hyphen-in-class-name
   include broken::non_productive_expression
   include broken::plus_equals
