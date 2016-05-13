@@ -16,7 +16,7 @@ class broken {
   include broken::string_number_in_comparison
   include broken::unquoted_bare_uppercase_word
   include broken::unquoted_file_mode
-  include broken::unquoted_string_variable
+  #include broken::unquoted_string_variable
   include broken::uppercase_variable_name
 
 }
