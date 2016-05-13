@@ -12,7 +12,7 @@ class broken {
   #include broken::reg_expression_against_non_string
   #include broken::space_before_hash_or_array
   include broken::string_interpolation_expressions
-  include broken::string_number_comparison
+  #include broken::string_number_comparison
   include broken::string_number_in_comparison
   include broken::unquoted_bare_uppercase_word
   include broken::unquoted_file_mode
