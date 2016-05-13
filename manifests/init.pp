@@ -8,7 +8,7 @@ class broken {
   #include broken::function_call_without_parans
   #include broken::hyphen-in-class-name
   #include broken::non_productive_expression
-  include broken::plus_equals
+  #include broken::plus_equals
   include broken::reg_expression_against_non_string
   include broken::space_before_hash_or_array
   include broken::string_interpolation_expressions
