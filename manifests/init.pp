@@ -6,7 +6,7 @@ class broken {
   include broken::empty_string_defaults
   include broken::escaping_with_backslashes
   #include broken::function_call_without_parans
-  include broken::hyphen-in-class-name
+  #include broken::hyphen-in-class-name
   include broken::non_productive_expression
   include broken::plus_equals
   include broken::reg_expression_against_non_string
